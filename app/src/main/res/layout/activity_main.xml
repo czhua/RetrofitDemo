@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chan.com.retrofitdemo.MainActivity">
+
+    <Button
+        android:id="@+id/xml_parse_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="解析XML" />
+
+    <Button
+        android:id="@+id/get_data_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xml_parse_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text="get data" />
+
+    <RelativeLayout
+        android:id="@+id/json_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/get_data_btn"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/json_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="json:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/json_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/json_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/json_tv"
+            android:textColor="#444444"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/json_rl"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/id_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/id_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/id_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/id_tv"
+            android:textColor="#444444"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vip_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_rl"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/vip_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vip:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vip_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/vip_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/vip_tv"
+            android:textColor="#444444"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/amount_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vip_rl"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="amount:"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/amount_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/amount_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/amount_tv"
+            android:textColor="#444444"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
