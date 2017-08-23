@@ -2,6 +2,7 @@ package chan.com.retrofitdemo;
 
 import chan.com.retrofitdemo.entity.CityXmlEntity;
 import chan.com.retrofitdemo.entity.ResultEntity;
+import chan.com.retrofitdemo.entity.work.WorkEntity;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
@@ -21,5 +22,9 @@ public interface RetrofitService {
 
     @GET("/WeatherApi")
     Call<CityXmlEntity> getXmlData(@Query("city") String city);
+
+    @GET("/test/parser_xml/index.php")
+    Call<WorkEntity> getPHPXmlData();
+
 
 }
