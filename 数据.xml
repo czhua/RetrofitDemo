@@ -1,0 +1,200 @@
+<resp>
+    <city>北京</city>
+    <updatetime>14:36</updatetime>
+    <wendu>32</wendu>
+    <fengli>
+        <![CDATA[ 2级 ]]>
+    </fengli>
+    <shidu>41%</shidu>
+    <fengxiang>西北风</fengxiang>
+    <sunrise_1>05:33</sunrise_1>
+    <sunset_1>18:59</sunset_1>
+    <sunrise_2/>
+    <sunset_2/>
+    <environment>
+        <aqi>40</aqi>
+        <pm25>7</pm25>
+        <suggest>各类人群可自由活动</suggest>
+        <quality>优</quality>
+        <MajorPollutants/>
+        <o3>108</o3>
+        <co>0</co>
+        <pm10>18</pm10>
+        <so2>2</so2>
+        <no2>10</no2>
+        <time>14:00:00</time>
+    </environment>
+    <yesterday>
+        <date_1>22日星期二</date_1>
+        <high_1>高温 30℃</high_1>
+        <low_1>低温 22℃</low_1>
+        <day_1>
+            <type_1>雷阵雨</type_1>
+            <fx_1>东南风</fx_1>
+            <fl_1>
+                <![CDATA[ <3级 ]]>
+            </fl_1>
+        </day_1>
+        <night_1>
+            <type_1>中到大雨</type_1>
+            <fx_1>北风</fx_1>
+            <fl_1>
+                <![CDATA[ <3级 ]]>
+            </fl_1>
+        </night_1>
+    </yesterday>
+    <forecast>
+        <weather>
+            <date>23日星期三</date>
+            <high>高温 32℃</high>
+            <low>低温 22℃</low>
+            <day>
+                <type>多云</type>
+                <fengxiang>西北风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </day>
+            <night>
+                <type>晴</type>
+                <fengxiang>北风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </night>
+        </weather>
+        <weather>
+            <date>24日星期四</date>
+            <high>高温 32℃</high>
+            <low>低温 20℃</low>
+            <day>
+                <type>晴</type>
+                <fengxiang>北风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </day>
+            <night>
+                <type>多云</type>
+                <fengxiang>北风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </night>
+        </weather>
+        <weather>
+            <date>25日星期五</date>
+            <high>高温 30℃</high>
+            <low>低温 20℃</low>
+            <day>
+                <type>多云</type>
+                <fengxiang>西南风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </day>
+            <night>
+                <type>晴</type>
+                <fengxiang>北风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </night>
+        </weather>
+        <weather>
+            <date>26日星期六</date>
+            <high>高温 29℃</high>
+            <low>低温 19℃</low>
+            <day>
+                <type>多云</type>
+                <fengxiang>南风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </day>
+            <night>
+                <type>阵雨</type>
+                <fengxiang>西南风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </night>
+        </weather>
+        <weather>
+            <date>27日星期天</date>
+            <high>高温 25℃</high>
+            <low>低温 18℃</low>
+            <day>
+                <type>阵雨</type>
+                <fengxiang>北风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </day>
+            <night>
+                <type>阵雨</type>
+                <fengxiang>北风</fengxiang>
+                <fengli>
+                    <![CDATA[ <3级 ]]>
+                </fengli>
+            </night>
+        </weather>
+    </forecast>
+    <zhishus>
+        <zhishu>
+            <name>晨练指数</name>
+            <value>较适宜</value>
+            <detail>早晨气象条件较适宜晨练，部分地面较湿滑，请选择合适的地点晨练。</detail>
+        </zhishu>
+        <zhishu>
+            <name>舒适度</name>
+            <value>较不舒适</value>
+            <detail>白天天气多云，同时会感到有些热，不很舒适。</detail>
+        </zhishu>
+        <zhishu>
+            <name>穿衣指数</name>
+            <value>炎热</value>
+            <detail>天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。</detail>
+        </zhishu>
+        <zhishu>
+            <name>感冒指数</name>
+            <value>少发</value>
+            <detail>各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。</detail>
+        </zhishu>
+        <zhishu>
+            <name>晾晒指数</name>
+            <value>适宜</value>
+            <detail>天气不错，适宜晾晒。赶紧把久未见阳光的衣物搬出来吸收一下太阳的味道吧！</detail>
+        </zhishu>
+        <zhishu>
+            <name>旅游指数</name>
+            <value>适宜</value>
+            <detail>天气较好，但丝毫不会影响您的心情。微风，虽天气稍热，却仍适宜旅游，不要错过机会呦！</detail>
+        </zhishu>
+        <zhishu>
+            <name>紫外线强度</name>
+            <value>中等</value>
+            <detail>属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。</detail>
+        </zhishu>
+        <zhishu>
+            <name>洗车指数</name>
+            <value>不宜</value>
+            <detail>不宜洗车，路面积水较多，不宜擦洗汽车。如果执意擦洗，要做好溅上泥水的心理准备。</detail>
+        </zhishu>
+        <zhishu>
+            <name>运动指数</name>
+            <value>较适宜</value>
+            <detail>天气较好，户外运动请注意防晒。推荐您进行室内运动。</detail>
+        </zhishu>
+        <zhishu>
+            <name>约会指数</name>
+            <value>较不适宜</value>
+            <detail>天气较好，且室外有风，外出约会可能会让恋人受些苦，最好在温暖的室内促膝谈心。</detail>
+        </zhishu>
+        <zhishu>
+            <name>雨伞指数</name>
+            <value>不带伞</value>
+            <detail>天气较好，不会降水，因此您可放心出门，无须带雨伞。</detail>
+        </zhishu>
+    </zhishus>
+</resp>
